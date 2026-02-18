@@ -1,8 +1,9 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Regina Swartout
+# DATE: 2/18/26
+# BRIEF DESCRIPTION: A program where the user is prompted whether they want a compliment or not. If they choose "yes", 
+# then a compliment is given for yes and a custom output for anything else.
 
 
 
@@ -15,7 +16,14 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+choice = input("Would you like a compliment? ")
 
+if choice == "yes":
+    print("You have wonderful eyes.")
+else:
+    print("No compliment for you!")
+
+print("Thank you for playing.")
 
 
 
@@ -69,10 +77,9 @@ Thank you for playing.
 
 '''
 
-1. Did you struggle with this lab (YES/NO)?
+1. Did you struggle with this lab (YES/NO)? 
 
-
-
+No, I just added an else to the compliment_01 program.
 
 
 
